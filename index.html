@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نور شوز | Noor Shoes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">نور شوز <span>Noor Shoes</span></div>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#products">الأحذية</a>
+      <a href="#offers">العروض</a>
+      <a href="#wholesale">طلبات الجملة</a><a href="#contact">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="tag">أحدث موديلات الأحذية</p>
+        <h1>نور شوز</h1>
+        <h2>اختار شوزك على ذوقك 👟</h2>
+        <p>موديلات مميزة وأسعار مناسبة — اطلب بسهولة من خلال واتساب.</p>
+        <a class="btn" href="#products">شوف المنتجات</a>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <h2>منتجات نور شوز</h2>
+      <p class="muted">اختار الموديل والمقاس واللون ثم اطلب مباشرة على واتساب.</p>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-gallery">
+            <img class="product-image" src="images/model3_red.jpg" alt="موديل رياضي - لون أبيض وبرغندي">
+            <img class="product-image secondary-image" src="images/model3_multi.jpg" alt="موديل رياضي - ألوان متعددة">
+          </div>
+          <h3>حذاء رياضي موديل 3</h3>
+          <p>المقاسات: 37 - 41</p>
+          <p>الألوان: حسب الألوان الظاهرة بالصور</p>
+          <div class="price">275 جنيه للقطعة</div>
+          <div class="deal">🔥 عرض: قطعتين بـ 500 جنيه</div>
+          <button onclick="order('حذاء رياضي موديل 3 - قطعة واحدة - 275 جنيه')">اطلب قطعة</button>
+          <button class="deal-btn" onclick="order('حذاء رياضي موديل 3 - عرض قطعتين بـ 500 جنيه')">اطلب عرض قطعتين</button>
+        </article>
+
+        <article class="product">
+          <img class="product-image" src="images/OH2.jpg" alt="حذاء OH2 نور شوز">
+          <h3>حذاء رياضي OH2</h3>
+          <p>المقاسات: 37 - 41</p>
+          <p>الألوان: حسب الألوان الظاهرة بالصورة</p>
+          <div class="price">350 جنيه للقطعة</div>
+          <div class="deal">🔥 عرض: 3 قطع بـ 1000 جنيه</div>
+          <button onclick="order('حذاء OH2 - قطعة واحدة - 350 جنيه')">اطلب قطعة</button>
+          <button class="deal-btn" onclick="order('حذاء OH2 - عرض 3 قطع بـ 1000 جنيه')">اطلب عرض 3 قطع</button>
+        </article>
+
+        <article class="product">
+          <img class="product-image" src="images/1002.jpg" alt="حذاء 1002 نور شوز">
+          <h3>حذاء رياضي 1002</h3>
+          <p>المقاسات: 37 - 41</p>
+          <p>الألوان: أسود • برغندي</p>
+          <div class="price">350 جنيه للقطعة</div>
+          <div class="deal">🔥 عرض: 3 قطع بـ 1000 جنيه</div>
+          <button onclick="order('حذاء 1002 - قطعة واحدة - 350 جنيه')">اطلب قطعة</button>
+          <button class="deal-btn" onclick="order('حذاء 1002 - عرض 3 قطع بـ 1000 جنيه')">اطلب عرض 3 قطع</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="wholesale" class="offer">
+      <h2>📦 طلبات الجملة</h2>
+      <p>للتجار وطلبات الجملة، تواصل معنا مباشرة على واتساب.</p>
+      <a class="whatsapp" href="https://wa.me/201019741328?text=السلام%20عليكم،%20عايز%20أستفسر%20عن%20طلبات%20الجملة%20من%20نور%20شوز" target="_blank">
+        📱 اطلب جملة على واتساب
+      </a>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2>تواصل معنا</h2>
+      <p>للطلب والاستفسار تواصل معنا على واتساب.</p>
+      <a class="whatsapp" href="https://wa.me/201019741328?text=السلام%20عليكم،%20عايز%20أستفسر%20عن%20أحذية%20نور%20شوز" target="_blank">📱 اطلب على واتساب</a>
+    </section>
+  </main>
+
+  <footer>© 2026 نور شوز - Noor Shoes</footer>
+  <script src="script.js"></script>
+</body>
+</html>
